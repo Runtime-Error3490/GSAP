@@ -10,7 +10,7 @@ var string=document.querySelector("#string")
 //     console.log(dets)
 // })
 string.addEventListener("mousemove",(dets)=>{
-    initialPath=`M 10 250 Q 250 ${dets.y} 500 250`
+    initialPath=`M 10 250 Q ${dets.x} ${dets.y} 500 250`
     gsap.to("svg path",{
         attr:{d:initialPath},
         duration:0.5,
