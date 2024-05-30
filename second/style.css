@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+#page1{
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page3{
+    width: 100%;
+    height: 100%;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+}
